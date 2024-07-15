@@ -1,0 +1,49 @@
+.Hist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .purcheItem {
+    width: 750px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 20px;
+  }
+  
+  .purcheItem img {
+    width: 130px;
+    margin-left: 25px;
+  }
+  
+  .purcheItem .description {
+    width: 100%;
+    font-size: 30px;
+    display: grid;
+    justify-content: flex-start;
+    align-self: center;
+    margin-left: 10px;
+  }
+  
+  .purche input {
+    display: none;
+    flex-direction: row;
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .purche button {
+    display: none;
+    background-color: rgb(2, 2, 65);
+    color: white;
+    border: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+  }
